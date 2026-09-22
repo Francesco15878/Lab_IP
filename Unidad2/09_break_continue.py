@@ -1,0 +1,8 @@
+for numero in [4,7,9,12]:
+    if numero==9:
+        continue
+    print(f"Con Break: {numero}") 
+for numero in [4,7,9,12]:
+    if numero==9:
+        break
+    print(f"Con Continue: {numero}")
